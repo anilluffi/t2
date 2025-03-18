@@ -10,6 +10,7 @@ function App() {
       <Router>
         <>
           <Routes>
+            <Route path="/" element={<TransactionListPage />} />
             <Route path="/List" element={<TransactionListPage />} />
             <Route path="/detail/:id" element={<TransctionDetailPage />} />
           </Routes>
